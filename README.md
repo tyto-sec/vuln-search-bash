@@ -19,7 +19,7 @@ This Bash script automates the process of opening multiple vulnerability databas
 Run the script with the search term and an optional flag for CVE-specific searches.
 
 ```bash
-./vulnerability_search.sh "<search term>" [-c | --cve-search]
+./vuln-search.sh "<search term>" [-c | --cve-search]
 ```
 
 ### Arguments
@@ -30,7 +30,7 @@ Run the script with the search term and an optional flag for CVE-specific search
 ### Example
 
 ```bash
-./vulnerability_search.sh "SMB 3.0.20" --cve-search
+./vuln-search.sh "SMB 3.0.20" --cve-search
 ```
 
 This example opens multiple vulnerability databases with results for "apache server vulnerability" and includes additional searches in CVE-specific databases.
